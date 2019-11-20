@@ -24,7 +24,7 @@ Feel free to open this example in another tab and follow along as we go through 
     <body>
         <script src="https://redom.js.org/redom.min.js"></script>
         <script>
-            import { el, mount } from "redom";
+            const { el, mount } = redom;
             const hello = el("h1", "Hello world!");
             mount(document.body, hello);
         </script>
